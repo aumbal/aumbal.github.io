@@ -1,0 +1,205 @@
+@media (min-width:26.563rem){
+    .col-one h2{
+        font-size: 2.5rem;
+    }
+    .button-purple-back{
+        width: 50%;
+
+    }
+    .four-col-grid{
+        text-align: center;
+    }
+}
+
+@media (min-width:31.25rem) {
+    .landing-banner-heading{
+        font-size: 2rem;
+    }
+    footer img{
+        max-width: 40%;
+    }
+}
+
+@media (min-width:36.25rem){
+    .image-flex{
+        flex-direction: row;
+    }
+    
+    .image-flex img{
+        padding: 1rem;
+    }
+    
+    .wire-img-top{
+        width: 50%;
+    }
+    
+    .wire-img-bottom{
+        width: 100%;
+    }
+
+    .web-res-grid{
+        grid-template-columns: 0.3fr 0.7fr;
+    }
+    
+    .res-grid-img-left img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .res-grid-img-right img{
+        max-width: 91%;
+        height: auto;
+    }
+    
+}
+
+@media (min-width:36.563rem) {
+    nav, .nav-menu{
+        flex-direction: row;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    .landing-banner{
+        padding: 7rem 0rem;
+    }
+    .project-heading-area img {
+        max-width: 60%;
+    }
+    footer img{
+        max-width: 20%;
+    }
+    .button-flex{
+        flex-direction: row;
+    }
+    
+}
+
+@media (min-width:43.75rem) {
+    .about-me{
+        grid-template-columns: 0.5fr 1fr; 
+    }
+    .three-col-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .four-col-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 4rem 0rem 2rem 0rem;
+    }
+    .heading-banner h1{
+        font-size: 3rem;
+    }
+    .heading-banner{
+        text-align: center;
+    }
+    
+    .project-section{
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 47.938rem) {
+    .button-purple{
+        align-self: center;
+    }
+
+}
+
+@media (min-width:48rem){
+    .landing-banner-heading{
+        font-size: 2rem;
+    }
+    .landing-image-container img{
+        max-width: 70%;
+    }
+    .landing-banner{
+        padding: 7rem 0rem;
+    }
+
+    .about-me img{
+        max-width: 50%;
+    }
+    .project-heading-area img {
+        max-width: 40%;
+    }
+    .project-grid{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 4rem;
+    }
+    .col-one{
+        padding: 0rem 2rem 0rem 2rem;
+        text-align: left;
+        width: 50%;
+    }
+    .col-one p{
+        font-size: 1.2rem;
+    }
+    .col-two{
+        width: 50%;
+        order: 0;
+    }
+    .two-col-grid{
+        flex-direction: row;
+    }
+    .button-purple{
+        width: 65%;
+    }
+    .button-purple-back{
+        width: 30%;
+
+    }
+    
+
+}
+
+
+@media (min-width:64rem) {
+    .landing-banner-heading{
+        font-size: 3rem;
+    }
+    .landing-image-container img{
+        max-width: 40%;
+    }
+    .about-me{
+        padding: 3rem 10rem;
+    }
+    .about-me img{
+        max-width: 80%;
+    }
+    .about-me-text {
+        padding: 1.5rem 3rem 1.5rem 0rem;
+    }
+    .about-me-text p{
+        font-size: 1rem;
+
+    }
+    .about-me-text h2{
+        font-size: 2rem;
+        padding-bottom: 1.3rem;
+    }
+    footer img{
+        max-width: 10%;
+    }
+}
+
+@media(min-width:81.25rem){
+    .project-heading-area img {
+        max-width: 25%;
+    }
+}
+
+@media (min-width:90rem){
+    .about-me-text {
+        padding: 1.5rem 16rem 1.5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-me-text p{
+        font-size: 1.2rem;
+    }
+}
