@@ -112,6 +112,9 @@
     .landing-banner-heading{
         font-size: 2rem;
     }
+    .landing-banner-tag{
+        font-size: 1.4rem;
+    }
     .landing-image-container img{
         max-width: 70%;
     }

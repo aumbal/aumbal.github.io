@@ -129,15 +129,17 @@ nav{
 }
 
 .landing-banner-heading{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 2px;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     text-align: center;
 }
 
 .landing-banner-tag{
     font-size: 1rem;
+    font-weight: bold;
     letter-spacing: 2px;
+    padding: 0rem 1rem 0rem 1rem;
     text-align: center;
 }
 
