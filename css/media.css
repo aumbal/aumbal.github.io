@@ -78,11 +78,23 @@
     
 }
 
+@media (min-width:39.5rem){
+    .illustration-heading{
+        padding-top: 3rem;
+    }
+    .illustration-page-banner-img{
+        padding-top: 4rem;
+    }
+}
+
 @media (min-width:43.75rem) {
     .about-me{
         grid-template-columns: 0.5fr 1fr; 
     }
     .three-col-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .three-col-grid-illust{
         grid-template-columns: 1fr 1fr 1fr;
     }
     .four-col-grid{

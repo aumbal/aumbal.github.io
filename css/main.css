@@ -465,4 +465,41 @@ footer img{
     padding-bottom:3rem;
 }
 
+.illustration-heading{
+    padding-top: 1rem;
+}
+.illustration-page-banner-img{
+    padding-top: 1rem;
+}
 
+.illustration-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.illustration-type-heading{
+    padding-top: 1rem;
+}
+
+.illustration-section{
+    padding-bottom: 2rem;
+}
+
+.three-col-grid-illust{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns:1fr;
+    row-gap: 1.3rem;
+    padding-bottom: 2rem;
+    column-gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.three-col-img-illust{
+    width: 100%;
+    max-width: 400px;
+}
