@@ -503,3 +503,20 @@ footer img{
     width: 100%;
     max-width: 400px;
 }
+
+.long-img-one{
+    align-items: center;
+    text-align: center;
+    grid-template-columns:1fr;
+    row-gap: 1.3rem;
+    padding-bottom: 2rem;
+    column-gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.long-img{
+    width: 100%;
+    max-width: 1200px;
+}
