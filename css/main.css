@@ -55,7 +55,17 @@ figcaption{
     padding-bottom: 1.5rem;
 }
 
-ul{
+/*ul{
+    list-style: none;
+}*/
+
+.process-lists{
+    margin: auto;
+    padding-left: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.no-bullet{
     list-style: none;
 }
 
@@ -519,4 +529,11 @@ footer img{
 .long-img{
     width: 100%;
     max-width: 1200px;
+}
+
+.heading-banner .coc-banner-size{
+    width: 100%;
+    max-width: 580px;
+    margin: auto;
+    padding-bottom: 2rem;
 }
