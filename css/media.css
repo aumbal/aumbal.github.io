@@ -151,7 +151,7 @@
         width: 50%;
     }
     .col-one p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .col-two{
         width: 50%;
@@ -166,6 +166,11 @@
     .button-purple-back{
         width: 30%;
 
+    }
+
+    .text-box h2{
+        font-size: 1.2rem;
+        line-height: 2rem;
     }
     
 
@@ -183,7 +188,7 @@
         padding: 3rem 10rem;
     }
     .about-me img{
-        max-width: 70%;
+        max-width: 80%;
     }
     .about-me-text {
         padding: 1.5rem 3rem 1.5rem 0rem;

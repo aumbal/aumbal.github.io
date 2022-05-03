@@ -17,32 +17,32 @@ html {
 
 body{
     font-size: 1rem;
-    color: #212141;
+    color: #18104B;
 
 }
 
 h1{
-    font-family: 'Martel Sans', sans-serif;
-    font-weight: bold;
-    color: #212141;
+    font-family: 'Sen', sans-serif;
+    font-weight:bolder;
+    color: #18104B;
     margin: 0;
 
 }
 
 h2{
-    font-family: 'Catamaran', sans-serif;
-    font-weight: bold;
-    color: #212141;
+    font-family: 'Sen', sans-serif;
+    font-weight: bolder;
+    color: #18104B;
 
 }
 
 h3{
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Sen', sans-serif;
     font-weight: bold;
 }
 
 p, ul, ol, a, figcaption{
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 figure{
@@ -71,12 +71,12 @@ figcaption{
 
 a{
     display: inline-block;
-    color: #60607B;
+    color: #F14751;
     text-decoration: underline;
 }
 
 a:active, a:hover, a:focus{
-    color: #7EB256;
+    color: #18104B;
     text-decoration: none;
 }
 
@@ -87,24 +87,26 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 1rem;
-    background-color: #FFE1CC;
+    background-color: #F14751;
 }
 
+
 .my-name{
-    color: #60607B;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
 .my-name a {
+    font-family: 'Sen', sans-serif;
+    color: #FCF8E8;
     text-decoration: none;
     font-weight: bold;
     padding: 15px 30px;
 }
 
 .my-name a:active, .my-name a:hover, .my-name a:focus {
-    background-color: #60607B;
-    color: #FFE1CC;
+    background-color: #18104B;
+    color: #F14751;
 }
 
 .nav-menu{
@@ -121,7 +123,8 @@ nav{
 }
 
 .nav-menu a {
-    color: #60607B;
+    font-family: 'Sen', sans-serif;
+    color: #FCF8E8;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
@@ -129,13 +132,13 @@ nav{
 }
 
 .nav-menu a:active, .nav-menu a:hover, .nav-menu a:focus{
-    background-color: #60607B;
-    color: #FFE1CC;
+    background-color: #18104B;
+    color: #F14751;
 }
 
 .landing-banner{
     padding: 3rem 0rem;
-    background-color: #FFFAF5;
+    background-color: #FFD692;
 }
 
 .landing-banner-heading{
@@ -156,8 +159,30 @@ nav{
 .landing-image-container{
     display: flex;
     justify-content: center;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
 }
+
+
+.text-box {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FCF8E8;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-box h2{
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+
 
 .landing-image-container img{
     max-width: 90%;
@@ -168,7 +193,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr;
     padding: 3rem 1rem;
-    background-color: #E6EAF3; 
+    background-color: #FCF8E8; 
 }
 
 .about-me-image{
@@ -195,36 +220,10 @@ nav{
     line-height: 1.75rem;
 }
 
-.project-heading-area{
-    padding: 2rem 0rem 3rem 0rem;
-    margin: 0rem 0.5rem;
-}
-
-.project-heading-area h1, .project-heading-area h2{
-    text-align: center;
-}
-
-.project-heading-area h2{
- font-size: 1rem;
-}
-
-.my-project-tag{
-    font-weight:lighter;
-    padding-bottom: 2rem;
-}
-
-.icon-image-container{
-    text-align: center;
-}
-
-.project-heading-area img {
-    max-width: 80%;
-    height: auto;
-}
-
 .projects-container{
+    padding-top: 6rem;
     width: 90%;
-    max-width: 890px;
+    max-width: 990px;
     margin: auto;
 }
 
@@ -249,7 +248,8 @@ nav{
 }
 
 .col-one h2{
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Sen', sans-serif;
+    font-weight: bolder;
     font-size: 2rem;
     margin: 1rem 0rem 1rem 0rem;
 }
@@ -260,7 +260,7 @@ nav{
 }
 
 .project-type{
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: #212141;
     font-weight: bold;
     font-size: 1.2rem;
@@ -271,19 +271,19 @@ nav{
     padding: 0.75rem;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
-    color:#212141;
+    color:#FCF8E8;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    background-color:#B9BCDD;
+    background-color:#F14751;
     border-radius: 5rem;
     transition-property: background-color; 
     transition-duration: 0.25s;
 }
 
 .button-purple:hover, .button-purple:focus{
-    color: #FFE1CC;
-    background-color:#60607B;
+    color: #F14751;
+    background-color:#18104B;
 }
 
 .col-two{
@@ -293,21 +293,21 @@ nav{
 }
 
 footer{
-    background-color: #60607B;
+    background-color: #6C658F;
     text-align: center;
     padding: 3rem 4rem;
 }
 
 footer h3{
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Sen', sans-serif;
     font-size: 2rem;
-    color: #FFE1CC;
+    color: #FCF8E8;
 }
 
 footer p{
     font-weight: bold;
     font-size: 1.2rem;
-    color: white;
+    color: #FCF8E8;
 }
 
 footer img{
@@ -335,7 +335,7 @@ footer img{
 }
 
 .heading-banner p{
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: #212141;
     font-weight: bold;
     font-size: 1.3rem;
