@@ -39,6 +39,7 @@ h2{
 h3{
     font-family: 'Sen', sans-serif;
     font-weight: bold;
+    padding-top: 2rem;
 }
 
 p, ul, ol, a, figcaption{
@@ -365,7 +366,7 @@ footer img{
 .four-col-grid h2{
     font-weight: bold;
     font-size: 1.2rem;
-    color: #60607B;
+    color: #18104B;
 }
 
 .four-col-grid ul{
@@ -536,4 +537,13 @@ footer img{
     max-width: 580px;
     margin: auto;
     padding-bottom: 2rem;
+}
+
+iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.bye-nary-heading{
+    padding-top: 2rem;
 }
