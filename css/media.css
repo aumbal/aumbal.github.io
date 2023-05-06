@@ -160,6 +160,12 @@
     .two-col-grid{
         flex-direction: row;
     }
+
+    .two-col-grid-new{
+        grid-template-columns:1fr 1fr;
+    }
+
+
     .button-purple{
         width: 65%;
     }

@@ -409,6 +409,16 @@ footer img{
     width: 100%;
 }
 
+.two-col-grid-new{
+    display: grid;
+    grid-template-columns:1fr;
+    padding: 2rem 0rem 2rem 0rem;
+    row-gap: 1.3rem;
+    width: 100%;
+    max-width: 890px;
+    margin: auto;
+}
+
 .two-col-img{
     text-align: center;
 }
