@@ -42,6 +42,12 @@ h3{
     padding-top: 3rem;
 }
 
+h4{
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 p, ul, ol, a, figcaption{
     font-family: 'Lato', sans-serif;
 }
@@ -347,6 +353,7 @@ footer img{
     grid-template-columns:1fr;
     padding: 2rem 0rem 2rem 0rem;
     row-gap: 1.3rem;
+    column-gap: 1.3rem;
     width: 100%;
     max-width: 890px;
     margin: auto;
@@ -414,6 +421,7 @@ footer img{
     grid-template-columns:1fr;
     padding: 2rem 0rem 2rem 0rem;
     row-gap: 1.3rem;
+    column-gap: 1.3rem;
     width: 100%;
     max-width: 890px;
     margin: auto;
@@ -556,4 +564,18 @@ iframe{
 
 .bye-nary-heading{
     padding-top: 2rem;
+}
+
+.tg-design-opp{
+    font-size: 2rem;
+    color: #6C658F;
+}
+
+.tg-design-opp p{
+    line-height: 3rem;
+}
+
+.enrique-sticky {
+    width: 70%;
+    text-align: center;
 }

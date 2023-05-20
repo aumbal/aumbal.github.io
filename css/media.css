@@ -157,6 +157,9 @@
         width: 50%;
         order: 0;
     }
+    .enrique-sticky{
+        width: 70%;
+    }
     .two-col-grid{
         flex-direction: row;
     }
