@@ -9,151 +9,107 @@
         <link href="css/normalise.css" rel="stylesheet">
        <link href="css/main.css" rel="stylesheet">
        <link href="css/media.css" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <nav>
             <div class="my-name">
-                <a href="index.html#top" aria-label="Alyssa Umbal">ALYSSA UMBAL</a>
+                <a href="index.html#top" aria-label="Alyssa Umbal"><img width="180" src="img/borb-logo.png"></a>
             </div>
 
             <ul class="nav-menu">
-                <li><a href="index.html#projects" aria-label="View my projects">PROJECTS</a></li>
+                <li><a href="index.html#projects" aria-label="View my projects">DESIGN</a></li>
+                <li><a href="illustrations.html" aria-label="View my projects">ILLUSTRATIONS</a></li>
                 <li><a href="about.html" aria-label="About Me">ABOUT</a></li>
-                <li><a href="https://drive.google.com/file/d/1KucEQwYJ9G7WKjhYZkPi-EJpSeD0Kp1S/view?usp=sharing" target="_blank" aria-label="View My Resume">RESUME</a></li>
+                <li><a href="https://drive.google.com/file/d/1SFXvl7cdtgZNa8lDCfrCuSOHrjmRPPvt/view?usp=sharing" target="_blank" aria-label="View My Resume">RESUME</a></li>
             </ul>
         </nav>
 
         <section class="landing-banner" id="top">
-            <div class="landing-image-container">
-                <img src="img/nintendo-switch-portfolio.png" alt="Nintendo Switch Portfolio Concept">
+            <div class="intro">
+                <div class="intro-img-container">
+                    <img src="img/self-portrait.png" alt="Image I drew of myself with my imaginary characters in Procreate">
+                </div>
+                <div class="text-box">
+                    <h1>Hi, I'm Alyssa! I create immersive and whimsical worlds through <em class="job-title-colour-illustrator">illustration</em> and <em class="job-title-colour-designer">interaction design</em></h1>
+                </div>
             </div>
-            <div class="text-box">
-                <h2>👋 Hello, I'm Alyssa 🦆 I’m an illustrator and Product Designer based in Vancouver, BC—currently <a href="https://the-peak.ca/">@The Peak SFU</a>. Previously <a href="https://ubccpd.ca/">@UBC CPD</a> and <a href="https://www.instagram.com/iatsuu/?hl=en">@IATSU</a>.</h2>
-            </div>
+
         </section>
 
-        <section class="my-projects" id="projects">
+        <section class="project-grid">
+            <div class="line-seperator"></div>
+            <div class="two-col-project-grid">
+                <!--PROJECT 1-->
+                <div>
+                    <a href="squareEnix.html"><img src="img/thumbnails/square-enix.png" alt="Nier Automata" class="responsive-img"></a>
+                    <h5 class="project-title"><span class="title-bold-colour">Square Enix</span> - Interaction ∘ Experience Design </h5>
+                    <p class="project-description">A digital microsite focused on presenting exclusive content from Square Enix games to nurture fan’s engagement on their favourite franchises</p>
+                    <h5 class="view-project"><a href="squareEnix.html">View Project →</a></h5>
+                </div>
 
-            <div class="projects-container">
-                <section class="project-grid">
-                    <div class="col-one">
-                        <p class="project-type">UX/UI Design, UX Research</p>
-                        <h2>Bye-nary</h2>
-                        <p>Bye-nary is an interactive narrative mobile application where users discover more about 2SLGBTQIA+ terms and local non-binary/trans businesses and spaces. </p>
-                        <a href="byenary.html" class="button-purple" aria-label="VIEW BYE-NARY">VIEW BYE-NARY</a>
-                    </div>
-                    <div class="col-two">
-                        <img src="img/thumbnails/bye-nary-thumbnail.png" alt="Bye-nary UX Case study">
-                    </div>
-                </section>
-
-                <section class="project-grid">
-                    <div class="col-two">
-                        <img src="img/thumbnails/tg.png" alt="Image of my porject: Turquoise Goat Trading Cards">
-                    </div>
-                    <div class="col-one">
-                        <p class="project-type">UX Research, Experience Design</p>
-                        <h2>Turquoise Goat Trading Cards</h2>
-                        <p>Exclusive Turquoise Goat Trading Cards as a distinctive and memorable way for customers to commemorate their visit to the cafe.</p>
-                        <a href="turquoiseGoat.html" class="button-purple" aria-label="VIEW TURQUOISE GOAT">VIEW TURQUOISE GOAT</a>
-                    </div>
-                </section>
-
-                <section class="project-grid">
-                    <div class="col-one">
-                        <p class="project-type">Illustration, Internship</p>
-                        <h2>UBC CPD Illustration Gallery</h2>
-                        <p>A series of medical related illustrations I have created during my Spring 2022 internship with UBC CPD, Faculty of Medicine.</p>
-                        <a href="ubccpdGallery.html" class="button-purple" aria-label="VIEW ILLUSTRATION COVER">VIEW UBC CPD</a>
-                    </div>
-                    <div class="col-two">
-                        <img src="img/thumbnails/ubc-cpd-gallery.png" alt="Image of my project: UBC CPD Illustration Gallery">
-                    </div>
-                </section>
-
-
-                <section class="project-grid">
-                    <div class="col-two">
-                        <img src="img/thumbnails/asd-module-thumbnail.png" alt="Image of ASD Module 2 Banner">
-                    </div>
-                    <div class="col-one">
-                        <p class="project-type">UX Design, Internship</p>
-                        <h2>Management of Autism Spectrum Disorder</h2>
-                        <p>An e-Learning module designed to provide physicians with practical knowledge and skills to support and manage the medical needs of autistic individuals of all ages.</p>
-                        <a href="#" class="button-purple" aria-label="VIEW INTERNSHIP">👀 COMING SOON...</a>
-                    </div>
-                </section>
-
-                <section class="project-grid">
-                    <div class="col-one">
-                        <p class="project-type">Illustration, Graphic Design</p>
-                        <h2>Playground</h2>
-                        <p>A series of non-academic/freelance illustrations and graphic design that I have done on the side</p>
-                        <a href="illustrations.html" class="button-purple" aria-label="VIEW PLAYGROUND">VIEW PLAYGROUND</a>
-                    </div>
-                    <div class="col-two">
-                        <img src="img/thumbnails/illustration-thumbnail.png" alt="Image of my project: playground">
-                    </div>
-                </section>
-
-
-
-
-
-                <!--
-                <section class="project-grid">
-                    <div class="col-two">
-                        <img src="img/scrapbook-banner.png" alt="Image of my project; Scrapbook">
-                    </div>
-                    <div class="col-one">
-                        <p class="project-type">UX/UI Design</p>
-                        <h2>Scrapbook</h2>
-                        <p>An application to assist children in evaluating their mental health in a scrapbook diary.</p>
-                        <a href="scrapbook.html" class="button-purple" aria-label="VIEW SCRAPBOOK">VIEW SCRAPBOOK</a>
-                    </div>
-                </section>
-
-
-
-                <section class="project-grid">
-                    <div class="col-two">
-                        <img src="img/thumbnails/communities-thumbnail.png" alt="Image of my project: Communities of Care">
-                    </div>
-                    <div class="col-one">
-                        <p class="project-type">Illustration, Publishing</p>
-                        <h2>Communities of Care</h2>
-                        <p>A newspaper cover illustration for The Peak SFU, for a well-written piece by one of the founders of the no cops on campus initiative.</p>
-                        <a href="communitiesOfCare.html" class="button-purple" aria-label="VIEW ILLUSTRATION COVER">VIEW ILLUSTRATION COVER</a>
-                    </div>
-                </section>
-
-
-
-
-                                <section class="project-grid">
-                    <div class="col-one">
-                        <p class="project-type">UX/UI Design</p>
-                        <h2>Distant Garden</h2>
-                        <p>A mobile application where long-distance couples create memories through virtual plants.</p>
-                        <a href="distantGarden.html" class="button-purple" aria-label="VIEW DISTANT GARDEN">VIEW DISTANT GARDEN</a>
-                    </div>
-                    <div class="col-two">
-                        <img src="img/thumbnails/distant-garden-banner.png" alt="Image of my project: Distant Garden">
-                    </div>
-                </section>
-                -->
-
+                <!--PROJECT 2-->
+                <div>
+                    <a href="veniceBiennale.html"><img src="img/thumbnails/venice-biennale.png" alt="Image of Microsite" class="responsive-img"></a>
+                    <h5 class="project-title"><span class="title-bold-colour">Venice Biennale</span> - Art Direction ∘ Interaction ∘ Motion Design </h5>
+                    <p class="project-description">A pre-event experience to view all National Exhibitions at the 2023 Architectural Exhibit in Italy.</p>
+                    <h5 class="view-project"><a href="veniceBiennale.html">View Project →</a></h5>
+                </div>
             </div>
+
+            <div class="two-col-project-grid">
+                <!--PROJECT 3-->
+                <div>
+                    <a href="turquoiseGoat.html"><img src="img/thumbnails/turquoise-goat-thumbnail.png" alt="Image of Turquoise Goat Trading Cards" class="responsive-img"></a>
+                    <h5 class="project-title"><span class="title-bold-colour">Turquoise Goat Trading Cards</span> - Product Design ∘ UX Research</h5>
+                    <p class="project-description">Designed exclusive trading cards as a distinctive and memorable way for customers to commemorate their visit to the cafe.</p>
+                    <h5 class="view-project"><a href="turquoiseGoat.html">View Project →</a></h5>
+                </div>
+
+                <!--PROJECT 4-->
+                <div>
+                    <a href="ubccpdGallery.html"><img src="img/thumbnails/ubc-cpd.png" alt="UBC CPD Thumbnail" class="responsive-img"></a>
+                    <h5 class="project-title"><span class="title-bold-colour">UBC CPD Illustrator Work</span> - Illustration Design ∘ Internship </h5>
+                    <p class="project-description">A series of medical related illustrations I have created during my internship with UBC CPD, Faculty of Medicine.</p>
+                    <h5 class="view-project"><a href="ubccpdGallery.html">View Project →</a></h5>
+                </div>
+            </div>
+
+            <div class="line-seperator" style="padding-top: 7rem;"></div>
+
+            <footer>
+                <div class="footer-line">
+                    <div class="bird-line">
+                        <div class="bird-contents">
+                            <a href=mailto:“alyssaumbal_2000@outlook.com” target="_blank"><img src="img/email-borb.png"></a>
+                            <h5>Email</h5>
+                        </div>
+                        <div class="bird-contents">
+                            <a href="https://www.instagram.com/ulyssmei/" target="_blank"><img src="img/instagram-borb.png"></a>
+                            <h5>Instagram</h5>
+                        </div>
+                        <div class="bird-contents">
+                            <a href="https://www.linkedin.com/in/alyssa-umbal-b64092196/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="img/linkedin-borb.png"></a>
+                            <h5>LinkedIn</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="footer-msg">Developed with the help of instant noodles, soy milk, and birds.</h3>
+                    </div>
+                </div>
+
+            </footer>
+
+
         </section>
 
-        <footer id="contact">
-            <h3>Get in touch</h3>
-            <img src="img/mailbox.png" alt="Duck delivering mail">
-            <p class="email">aumbal@sfu.ca</p>
-            <p>Website designed and coded by me</p>
-        </footer>
+
+
+
+
+
 
     </body>
 
