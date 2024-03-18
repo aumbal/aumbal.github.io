@@ -205,6 +205,14 @@ nav{
     color: #6D67E4;
 }
 
+.job-title-colour-artist{
+    color: #A12B55;
+}
+
+.job-title-colour-bird{
+    color: #FBB73C;
+}
+
 .line-seperator{
     border-bottom: 2px solid #FFE9B1;
 }
